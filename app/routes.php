@@ -31,13 +31,13 @@
 		// Now imagine we want to see all our drops and their drop rate. 
 		foreach ($enemy->drops as $drop)
 		{
-		    echo $drop->name . ": drop rate is: " . $drop->pivot->drop_rate . "<br/>";
+			echo $drop->name . ": drop rate is: " . $drop->pivot->drop_rate . "<br/>";
 		}
 
 
 		foreach ($item->enemy as $c_enemy)
 		{
-		    echo $c_enemy->name . ": drop rate is: " . $drop->pivot->drop_rate . "<br/>";
+			echo $c_enemy->name . ": drop rate is: " . $drop->pivot->drop_rate . "<br/>";
 		}
 
 
